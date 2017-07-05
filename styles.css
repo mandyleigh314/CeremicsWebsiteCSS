@@ -5,11 +5,24 @@ body {
   color: #131511;
   font-weight: normal;
 }
-
-#site-header{
-
-
+a:link {
+  color: #2B2F26;
 }
+a:visited {
+  color: #2B2F26;
+}
+a:hover {
+    color: #CD5D67;
+}
+
+
+a:active {
+    color: #968772;
+}
+p a {
+  color: #968772;
+}
+
 #main-navigation {
   font-family: 'Roboto', sans-serif;
   background-color: white;
@@ -183,8 +196,8 @@ display: inline-block;
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
-  width: 900px;
-  margin: 60px 200px;
+  width: 750px;
+  margin: 60px 300px;
 }
 #img-txt {
 margin-top: -10px;
@@ -193,50 +206,92 @@ margin-top: -10px;
 
 #bird {
   float: left;
-  height: 70px;
+  height: 90px;
   width: auto;
   margin: -5px 10px 10px 0px;
 }
 #pots2 {
-  height: auto;
-  width: 100px;
+  height: 120px;
+  width: 160px;
 }
 #about-content p {
-
+line-height: 1.9em;
 }
 #about-content h2 {
 font-size: 25px;
 margin-bottom: -7px;
+align-self: flex-start;
 }
 blockquote {
   border-left: 2px solid #131511;
   padding-left: 1.25em;
+  margin-left: -10px;
+  line-height: 1.9em;
 }
+/*#plantbg {
+
+  min-width: 1280px;
+  height: 320px;
+  margin-left: -100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}*/
 #Room-to-grow {
-  /*z-index: 2;*/
+  z-index: 2;
   color: white;
+  text-align: center;
   font-size: 100px;
-  /*margin-top: -250px;*/
-  /*padding-left: 100px;*/
+  margin-top: -250px;
+  padding-left: 100px;
   background-image: url("./images/background-3.jpg");
-  /*background-attachment: fixed;*/
-  /*background-position: center;
-  background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  min-width: 1024px;
+  min-width: 1000px;
   width: 100%;
   height: 350px;
+  margin-left: -300px;
+  margin-top: 30px;
+  padding: 0 200px;
+  margin-bottom: 40px;
+}
+#about-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 400px;
+  width: 800px;
+}
+#facilities {
+  width: 63%;
+  margin-right: 10px;
 }
 #side-plants {
-  display: flex;
-  align-items: flex-end;
-  font-size: 10px;
+  width: 30%;
+}
+#pots2 {
+  margin-top: 40px;
 }
 
+#tiny-text {
+  font-size: 10px;
+  margin-left: 10px;
+  width: 15%;
+}
+
+#monthlyplans {
+  margin-bottom: 10px;
+}
 
 table {
+  margin-top: 25px;
   border: 1px solid #131511;
   border-collapse: collapse;
+}
+#theader td {
+  padding-left: 5%;
 }
 td {
   border: 1px solid #131511;
@@ -338,4 +393,5 @@ input[type=email] {
     font-size: 16px;
     justify-content: center;
     align-self: center;
+    margin-left: 180px;
 }
