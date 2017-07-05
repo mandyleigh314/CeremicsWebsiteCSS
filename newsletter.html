@@ -8,28 +8,35 @@
   </head>
   <body>
     <div class="wrapper">
+      <div id="everything">
       <header id="site-header">
           <nav id="main-navigation">
+            <div id="imghead">
+            <img src="./images/bent-creek-logo.png" alt="pot" id="pot">
+            </div>
+            <div id="links">
             <a href="index.html">home</a>
             <a href="about.html">about</a>
             <a href="newsletter.html">newsletter</a>
+            </div>
           </nav>
         </header>
         <div id="Newsletter-container">
-        <div id="Newsletter-content">
-          <img src="./images/background-2.jpg" alt="bg" id="background" />
+
+          <!-- <img src="./images/background-2.jpg" alt="bg" id="background" /> -->
           <div id="form-box">
-            <h1>Sign Up for Our Weekly Newsletter</h1>
+            <h3>Sign Up for Our Weekly Newsletter</h3>
             <p>Stay up to date with events, activities, news and specials.</p>
             <form>
-              <input type="text" id="nameInput" value="Name"><br>
+              <input type="text" id="nameInput" placeholder="Name"><br>
               <br>
-              <input type="email" id="emailInput" value="Email"><br>
+              <input type="email" id="emailInput" placeholder="Email"><br><br>
               <input type="submit" name="Submit" id="signupButton">
             </form>
           </div>
-          </div>
+          
         </div>
+      </div>
     </div>
     <script type="text/javascript">
   var nameInput = document.getElementById('nameInput');
